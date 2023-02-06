@@ -1,0 +1,3 @@
+Abstract the keywords in the given text: Generative Pre-trained Transformer 3, commonly known by its abbreviated form GPT-3, is an unsupervised transformer language model and the successor to GPT-2. It was first described in May 2020. OpenAI stated that full version of GPT-3 contains 175 billion parameters, two orders of magnitude larger than the 1.5 billion parameters in the full version of GPT-2 (although GPT-3 models with as few as 125 million parameters were also trained).\nOpenAI stated that GPT-3 succeeds at certain \"meta-learning\" tasks. It can generalize the purpose of a single input-output pair. The paper gives an example of translation and cross-linguistic transfer learning between English and Romanian, and between English and German.
+
+keywords:
