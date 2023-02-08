@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Smart Reader",
+    "version": "1.0",
+    "description": "Robust plugin that greatly enhances users' reading experience, empowered by GPT-3.",
+    "icons": {
+        "16": "images/sr-16.png",
+        "32": "images/sr-32.png",
+        "48": "images/sr-48.png",
+        "128": "images/sr-128.png"
+      },
+      "content_scripts": [
+        {
+          "js": ["scripts/content.js"],
+          "matches": [
+            "https://developer.chrome.com/docs/extensions/*",
+            "https://developer.chrome.com/docs/webstore/*"
+          ]
+        }
+      ],
+      "action": {
+        "default_popup": "popup.html"
+      },
+      "host_permissions": [
+        "https://developer.chrome.com/*"
+      ],
+      "permissions": [
+        "tabGroups"
+      ],
+      "background": {
+        "service_worker": "background.js"
+      }
+  }
