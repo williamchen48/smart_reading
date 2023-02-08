@@ -1,1 +1,2 @@
-KEY = "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"
+#Please use your personal API KEY, initially you have 18$ credit for your openAI account.
+KEY = ""
